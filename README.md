@@ -13,7 +13,9 @@ Password strength checker used for a study in our "gymnasiearbete".
 
 ## Requirements/Prerequisites
 
-- WIP
+- Body-paraser Module
+- Express module
+
 
 ## Installation
 
