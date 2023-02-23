@@ -24,7 +24,7 @@ This project has been tested on Javascript in a node environment. To install Nod
 
 1. Clone Git Repository
 ```cmd
-    git clone https://github.com/wille1233/xgymnasieprojekt
+    git clone https://github.com/wille1233/gymnasieprojekt
 ```
 
 2. Install modules 
