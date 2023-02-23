@@ -1,0 +1,98 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: min(100% - 20px, 520px);
+}
+
+.title {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 28px;
+  color: #333;
+}
+
+.submit {
+  position: relative;
+  margin-top: 16px;
+  padding: 9px;
+  border: none;
+  border-radius: 4px;
+  background-color: rgb(0, 116, 212);
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.password {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 16px;
+  border: none;
+  box-shadow: 0 0 0 1px #e0e0e0, 0 2px 4px 0 rgb(0 0 0 / 7%), 0 1px 1.5px 0 rgb(0 0 0 / 5%);
+  outline: none;
+}
+
+.password:focus {
+  box-shadow: 0 0 0 1px rgb(50 151 211 / 30%), 0 1px 1px 0 rgb(0 0 0 / 7%), 0 0 0 4px rgb(50 151 211 / 30%);
+}
+
+.submit:hover {
+  background-color: rgb(2 107 194);
+}
+
+.activity-indicator::before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 16px;
+  height: 16px;
+  margin-top: -8px;
+  margin-left: -8px;
+  border-radius: 50%;
+  border: 2.5px solid rgb(255 255 255 / 30%);
+  border-top-color: transparent;
+  animation: spinner 1.5s linear infinite;
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  margin-top: 28px;
+  height: 4px;
+  background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(119,134,255,1) 50%, rgba(43,192,14,1) 100%);
+}
+
+.dot {
+  --left: 0%;
+  position: absolute;
+  top: 50%;
+  left: var(--left);
+  transform: translateY(-50%);
+  width: 8px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #000000;
+  transition: 2s cubic-bezier(0, 0, 0.13, 0.93);
+}
