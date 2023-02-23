@@ -8,6 +8,8 @@ Password strength checker used for a study in our "gymnasiearbete".
 ## Built with
 
 - Javascript
+- CSS
+- HTML
 
 ## Requirements/Prerequisites
 
