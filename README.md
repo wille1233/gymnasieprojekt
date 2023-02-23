@@ -29,7 +29,10 @@ This project has been tested on Javascript in a node environment. To install Nod
 ```
 
 
-3. Create a mongodb account and connect app.js to 
+3. Run
+```cmd
+    node app.js
+```
 
 
 ## Code conventions
@@ -41,9 +44,6 @@ This project has been tested on Javascript in a node environment. To install Nod
 
 This project can be used for checking the strength of passwords. Will return a value between 0-5, where 5 is the highest strenth and 0 is weak.
 
-## Example
-
-https://github.com/wille1233/Content-Aggregator/issues/1#issue-1232525345
 
 ## To do/Roadmap
 
@@ -51,22 +51,14 @@ https://github.com/wille1233/Content-Aggregator/issues/1#issue-1232525345
 - [x] Check password strength by letters and numbers and symbols
 - [x] Import list of passwords to check using a for loop
 - [x] Import popular names to check if used in password
-- [ ] Create frontend
+- [x] Create frontend
 - [ ] Download from databse
-- [x] Upload to database
-- [x] Encrypt
+- [ ] Upload to database
+- [ ] Encrypt
 - [ ] Languages 
-    - [ ] Swedish
-    - [X] English
+    - [x] Swedish
+    - [ ] English
 
-## Changelog
-
-### Version 1.0.1
-
-#### Added or Changed
-
-- Added request 
-- Made a simple web scraper
 
 ## Contribution
 
@@ -89,11 +81,9 @@ William Eriksson - officiellawilliam@gmail.com
 Victor Dekker - victor.dekker@elev.ga.ntig.se
 Marucs Lycke - marcus.lycke@elev.ga.ntig.se
 
-Projectlink: https://github.com/wille1233/xgymnasieprojekt
+Projectlink: https://github.com/wille1233/gymnasieprojekt
 
 ## Acknowledgments
-
-- [Images to ReadMe](https://www.youtube.com/watch?v=nvPOUdz5PL4)
-- [Python Send Mail](https://www.youtube.com/watch?v=BsVQ_cBmEwg&t=438s)
+- Emil Poppler
 - Dan Hermansson
 
