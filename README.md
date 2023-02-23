@@ -25,12 +25,9 @@ This project has been tested on Javascript in a node environment. To install Nod
 
 2. Install modules 
 ```cmd
-    npm install mongoose
+    npm install 
 ```
 
-```cmd
-    npm install express
-```
 
 3. Create a mongodb account and connect app.js to 
 
